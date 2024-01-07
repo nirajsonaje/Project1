@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="">
+      <legend>Personal Details</legend>
+      <br />
+      <label for="fname">Firstname</label>
+      <input type="text" id="fname" />
+      <br /><br />
+      <label for="middlename">Middlename:</label>
+      <input type="text" id="middlename" />
+      <br /><br />
+      <label for="lname">Lastname:</label>
+      <input type="text" id="lname" />
+      <br /><br />
+      <label for="course">Course:</label>
+      <select id="course">
+        <option value="course">Course</option>
+        <option value="BE">B.E.</option>
+        <option value="BCA">BCA</option>
+        <option value="MCA">MCA</option>
+        <option value="BCOM">BCOM</option>
+        <option value="MTECH">MTECH</option>
+      </select>
+      <br /><br />
+
+      <label for="gender">Gender</label><br />
+      <input type="radio" id="gender" name="gender" value="male" />
+      <label for="gender">Male</label><br />
+      <input type="radio" id="gender" name="gender" value="female" />
+      <label for="gender">Female</label><br />
+      <input type="radio" id="gender" name="gender" value="other" />
+      <label for="gender">Other</label>
+
+      <br /><br />
+      <label for="dob">DOB</label>
+      <input type="datetime-local" id="dob" value="time" />
+      <br /><br />
+      <label for="num">Phone:</label>
+      <input type="button" value="+91" />
+      <input type="tel" id="num" pattern="{0-9}10" />
+      <br /><br />
+
+      <label for="address">Address</label><br />
+      <textarea type="address" id="address" cols="90" rows="5"></textarea>
+
+      <br /><br />
+      <label for="email">Email:</label>
+      <input type="text" for="email" value="" />
+      <br /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" />
+      <br /><br />
+
+      <label for="repassword">Re-type Password:</label>
+      <input type="password" id="repassword" />
+      <br /><br />
+
+      <input type="checkbox" id="terms" />
+      <label for="terms">Agree to terms and conditions</label>
+
+      <br /><br />
+      <label for="file">Choose File </label>
+      <input type="file" name="file" />
+
+      <br /><br />
+      <label for="color">Choose Color</label>
+      <input type="color" id="color" /> <br />
+      <br />
+      <input type="reset" />  <input type="submit" />
+    </form>
+  </body>
+</html>
